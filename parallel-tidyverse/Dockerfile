@@ -1,4 +1,4 @@
-FROM parallel-ver:3.6.1
+FROM markwh/parallel-ver:latest
 
 RUN apt-get update -qq && apt-get -y --no-install-recommends install \
   libcurl4-openssl-dev \

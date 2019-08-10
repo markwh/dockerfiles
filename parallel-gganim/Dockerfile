@@ -1,4 +1,4 @@
-FROM gcr.io/testproject1-179318/parallel-tidyverse:3.6.1
+FROM markwh/parallel-tidyverse:latest
 
 RUN apt-get update && apt-get install -y wget libjpeg62-turbo-dev
 
