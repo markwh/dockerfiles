@@ -1,8 +1,8 @@
 FROM parallel-ver:3.6.1
 
 RUN apt-get update -qq && apt-get -y --no-install-recommends install \
-  libcurl4-openssl-dev \ # originally in rocker/rstudio
-  libssl-dev \ # originally in rocker/rstudio
+  libcurl4-openssl-dev \
+  libssl-dev \
   libxml2-dev \
   libcairo2-dev \
   libsqlite3-dev \

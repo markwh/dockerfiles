@@ -1,8 +1,10 @@
 ## Emacs, make this -*- mode: sh; -*-
- 
+
+# Heavily copied from rocker/parallel
+
 FROM rocker/r-ver:3.6.1
 
-# MAINTAINER "Henrik Bengtsson" henrikb@braju.com
+MAINTAINER "Mark Hagemann" mark.hagemann@gmail.com
 
 ## System libraries
 RUN apt-get update \
